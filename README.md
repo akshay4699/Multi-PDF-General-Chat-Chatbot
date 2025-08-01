@@ -32,3 +32,24 @@ A Streamlit chatbot app that lets you:
 ```bash
 git clone https://github.com/akshay4699/Multi-PDF-General-Chat-Chatbot.git
 cd Multi-PDF-General-Chat-Chatbot
+
+### 2. 🧪 Create Virtual Environment (optional but recommended)
+```bash
+python -m venv venv
+venv\Scripts\activate  # On Windows
+source venv/bin/activate  # On Mac/Linux
+
+### 3. 📦 Install Dependencies
+```bash
+pip install -r requirements.txt
+
+### 4. 🔐 Set Your API Keys
+You can enter them in the sidebar UI when the app launches:
+
+GROQ API Key: [Get it here] (https://console.groq.com/)
+
+HuggingFace Token: [Get it here] (https://huggingface.co/settings/tokens)
+
+### 5. ▶️ Run the App
+streamlit run app.py
+
